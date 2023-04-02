@@ -1,0 +1,280 @@
+/* h1,h2,p{
+    text-align: center;
+    color: midnightblue;
+    
+}
+
+#memory{
+    background: midnightblue;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-gap: 20px; 
+}
+
+img{
+    width: 100%;
+}
+
+span{
+    height: 190px;
+}
+
+.button2 {
+    transition-duration: 0.4s;
+    background-color: white; 
+    color: white; 
+    border: 2px solid midnightblue;
+    border-radius: 8px;
+    font-size: 25px; 
+    margin-left: 45%;  
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: white;
+  }
+
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #resetBtn {
+    display: block;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+  
+  
+
+  #nivUnBtn {
+    display: block; 
+    background-color: rgb(1, 134, 14);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 20px;
+  }
+
+    */
+
+    /* body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  
+  h1 a {
+      text-decoration: underline;
+      color: black;
+  }
+  
+  #memory {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      max-width: 500px;
+  }
+  
+  img {
+    width: calc(25% - 20px);
+    height: 100%;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+img.flipped {
+    transform: rotateY(180deg);
+}
+
+  
+  .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  #resetBtn {
+    padding: 10px 20px;
+      font-size: 18px;
+      background-color: yellow;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  } */
+  
+  
+
+  /* #nivUnBtn {
+    padding: 10px 20px;
+      font-size: 18px;
+      background-color: red;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  } */
+
+  
+  /* button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: lightblue;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  } */
+
+  /* #startBtn {
+    padding: 10px 20px;
+      font-size: 18px;
+      background-color: green;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  } */
+
+  
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(25, 25, 112);
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(25, 25, 112);
+  }
+
+  a {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(25, 25, 112);
+  }
+
+  #score{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(0, 128, 0);
+  }
+
+  #chrono{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+  }
+
+  #niveau{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(0, 162, 255);
+  }
+
+  #coups-compt{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(255, 165, 0);
+  }
+
+  #memory {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #memory img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  #memory img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #resetBtn {
+    padding: 10px 20px;
+      font-size: 18px;
+      background-color: yellow;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  } 
+
+  #pauseBtn {
+    padding: 10px 20px;
+      font-size: 18px;
+      background-color: red;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  } 
+
+  #nivUnBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  } 
+
+  /* button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: lightblue;
+      border: none;
+      border-radius: 5px;
+      margin: 0 10px;
+      cursor: pointer;
+  }  */
+
+  #startBtn {
+  padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  } 
